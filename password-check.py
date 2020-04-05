@@ -3,7 +3,6 @@ import hashlib
 import sys
 
 def req_api_data(query_char):
-    # Req api data and check response code
     url = 'https://api.pwnedpasswords.com/range/' + query_char
     res = requests.get(url)
 
